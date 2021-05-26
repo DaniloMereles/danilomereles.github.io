@@ -1,0 +1,158 @@
+:root{
+    --white: #fff;
+    --blue: rgba(59, 130, 246, 0.5);
+    --semiBlack: 0 0 #0000;
+    --work-Sans: 'Work Sans', sans-serif;
+    --exo-2: 'Exo 2', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    color: var(--semiBlack);
+    background-color: #f1f2f6;
+}
+
+a{
+    text-decoration: none;
+    color: var(--semiBlack);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__logo{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: var(--work-Sans);
+}
+
+.nav__link{
+    margin-left: 120px;
+    font-family: var(--work-Sans);
+    font-size: 20px;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.hero__texts{
+    width: 40%;
+}
+
+.hero__text{
+    font-family: var(--exo-2);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hero__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: var(--exo-2);
+    font-weight: 400;
+}
+
+.hero__img{
+    height: 100%;
+    border-radius: 7px;
+}
+
+.icons{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons__ico{
+    width: 30px;
+    margin-left: 35px;
+}
+
+.proyects{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.proyects__title{
+    font-family: var(--exo-2);
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.proyects__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proyect{
+    width: 40%;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #000;
+    font-family: var(--exo-2);
+    margin-bottom: 20px;
+}
+
+.proyect__title{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.proyect__description{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.proyect__button{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__text{
+    font-size: 16px;
+    font-family: var(--exo-2);
+    font-weight: 400;
+}
